@@ -1,0 +1,37 @@
+body{
+    background: #333;
+  }
+.articles .col-10{
+background: #fff;
+margin-top :20px;
+padding:60px;
+}
+.articles article img{
+width:100%;
+margin : 20px 0;
+}
+.articles article h4{
+    text-align: right;
+}
+.articles article p{
+    text-align: justify
+}
+.articles article img{
+    text-align: left;
+}
+
+.single_article form input,
+.single_article form textarea
+{
+    width: 100%;
+}
+#comment {
+    border :1px solid lightgray;
+    padding : 20px;
+    margin : 20px 0;
+}
+#comment p{
+    margin-bottom:20px;
+    padding-bottom:20px;
+    border-bottom : 1px solid lightgray;
+}

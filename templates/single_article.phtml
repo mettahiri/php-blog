@@ -1,0 +1,19 @@
+<?php include "header.php"?>
+      <main class="articles container">
+          <section class="row single_article" >
+                <?php foreach($articles as $key=>$value): ?>
+                  <article class="col-10 offset-1 " >
+                    <div class="row">
+                      <h1 class="col-6"><?=$value["titre"]?> </h1>
+                      <h4 class="col-6"><?=$value["date"]?></h4>
+                    </div>
+                    <img src="public/images/<?=$value['image']?> " width="50%" alt="">
+                    <p><?=$value["corps_text"]?></p>
+                    
+                    <?php include "comments.phtml"?>
+                  </article>
+                <?php endforeach; ?>
+          </section>
+      </main>
+ <?php include "footer.php"?>
+

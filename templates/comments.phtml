@@ -1,0 +1,36 @@
+<section>
+   
+    <section class="comments">
+        <h3>Commmentaires</h3>
+        <div id="comment">
+            <!-- <h5>Nom : Test</h5>
+            <small>date</small>
+            <p>text : Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Voluptas vero deleniti
+                fugiat quasi dolore veritatis omnis similique ex sunt voluptate obcaecati accusamus 
+                odit, corporis sed voluptates nulla iusto ut totam.</p> -->
+                
+        </div>
+       
+    </section>
+
+    <form id="comments">
+        <h3>Ajouter un commmentaire</h3>
+        <div class="form-group">
+        <label for="nom">Nom </label>
+        <input type="text" name='nom' id="nom">
+        </div>
+        <div class="form-group">
+        <label for="titre">Email</label>
+        <input type="email" name='email' id="email">
+        </div>
+        
+        <div class="form-group">
+            <label for="text">Texte</label>
+            <textarea type="text" name='texte' id="text"></textarea>
+        </div>
+        <input type="hidden" name="id" id="id" value="<?= $value["id"]?>" >
+        <input type="submit" class="btn btn-success" >
+    </form>
+</section>
+    
